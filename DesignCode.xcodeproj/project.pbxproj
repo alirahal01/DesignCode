@@ -14,6 +14,7 @@
 		9F01087D2B8D272100720131 /* DesignCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01087C2B8D272100720131 /* DesignCodeTests.swift */; };
 		9F0108872B8D272100720131 /* DesignCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0108862B8D272100720131 /* DesignCodeUITests.swift */; };
 		9F0108892B8D272100720131 /* DesignCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0108882B8D272100720131 /* DesignCodeUITestsLaunchTests.swift */; };
+		9F0108962B939D4D00720131 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0108952B939D4D00720131 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9F0108822B8D272100720131 /* DesignCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0108862B8D272100720131 /* DesignCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeUITests.swift; sourceTree = "<group>"; };
 		9F0108882B8D272100720131 /* DesignCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F0108952B939D4D00720131 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				9F01086B2B8D271F00720131 /* DesignCodeApp.swift */,
 				9F01086D2B8D271F00720131 /* ContentView.swift */,
+				9F0108952B939D4D00720131 /* MenuView.swift */,
 				9F01086F2B8D272100720131 /* Assets.xcassets */,
 				9F0108712B8D272100720131 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F01086E2B8D271F00720131 /* ContentView.swift in Sources */,
+				9F0108962B939D4D00720131 /* MenuView.swift in Sources */,
 				9F01086C2B8D271F00720131 /* DesignCodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
