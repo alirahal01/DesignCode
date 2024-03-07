@@ -18,6 +18,7 @@
 		9F0108982B94B6FD00720131 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0108972B94B6FD00720131 /* Home.swift */; };
 		9F01089A2B94C8A000720131 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0108992B94C8A000720131 /* HomeView.swift */; };
 		9F01089C2B9A4BCB00720131 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01089B2B9A4BCB00720131 /* UpdateList.swift */; };
+		9F01089E2B9A546E00720131 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01089D2B9A546E00720131 /* UpdateStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9F0108972B94B6FD00720131 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		9F0108992B94C8A000720131 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9F01089B2B9A4BCB00720131 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		9F01089D2B9A546E00720131 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				9F0108952B939D4D00720131 /* MenuView.swift */,
 				9F0108972B94B6FD00720131 /* Home.swift */,
 				9F01089B2B9A4BCB00720131 /* UpdateList.swift */,
+				9F01089D2B9A546E00720131 /* UpdateStore.swift */,
 				9F0108992B94C8A000720131 /* HomeView.swift */,
 				9F01086F2B8D272100720131 /* Assets.xcassets */,
 				9F0108712B8D272100720131 /* Preview Content */,
@@ -274,6 +277,7 @@
 				9F0108962B939D4D00720131 /* MenuView.swift in Sources */,
 				9F0108982B94B6FD00720131 /* Home.swift in Sources */,
 				9F01089A2B94C8A000720131 /* HomeView.swift in Sources */,
+				9F01089E2B9A546E00720131 /* UpdateStore.swift in Sources */,
 				9F01086C2B8D271F00720131 /* DesignCodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
