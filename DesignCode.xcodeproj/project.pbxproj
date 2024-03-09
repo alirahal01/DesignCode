@@ -21,6 +21,7 @@
 		9F01089E2B9A546E00720131 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01089D2B9A546E00720131 /* UpdateStore.swift */; };
 		9F0108A02B9CB54C00720131 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01089F2B9CB54C00720131 /* TabBar.swift */; };
 		9F2E25432B9CC9FC004BCE57 /* UpdateDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E25422B9CC9FC004BCE57 /* UpdateDetails.swift */; };
+		9F2E25452B9CD09D004BCE57 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E25442B9CD09D004BCE57 /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		9F01089D2B9A546E00720131 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 		9F01089F2B9CB54C00720131 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		9F2E25422B9CC9FC004BCE57 /* UpdateDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetails.swift; sourceTree = "<group>"; };
+		9F2E25442B9CD09D004BCE57 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				9F0108972B94B6FD00720131 /* Home.swift */,
 				9F01089B2B9A4BCB00720131 /* UpdateList.swift */,
 				9F01089D2B9A546E00720131 /* UpdateStore.swift */,
+				9F2E25442B9CD09D004BCE57 /* RingView.swift */,
 				9F2E25422B9CC9FC004BCE57 /* UpdateDetails.swift */,
 				9F01089F2B9CB54C00720131 /* TabBar.swift */,
 				9F0108992B94C8A000720131 /* HomeView.swift */,
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2E25452B9CD09D004BCE57 /* RingView.swift in Sources */,
 				9F01089C2B9A4BCB00720131 /* UpdateList.swift in Sources */,
 				9F01086E2B8D271F00720131 /* ContentView.swift in Sources */,
 				9F2E25432B9CC9FC004BCE57 /* UpdateDetails.swift in Sources */,
