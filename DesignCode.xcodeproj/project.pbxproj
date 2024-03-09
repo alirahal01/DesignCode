@@ -19,6 +19,8 @@
 		9F01089A2B94C8A000720131 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0108992B94C8A000720131 /* HomeView.swift */; };
 		9F01089C2B9A4BCB00720131 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01089B2B9A4BCB00720131 /* UpdateList.swift */; };
 		9F01089E2B9A546E00720131 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01089D2B9A546E00720131 /* UpdateStore.swift */; };
+		9F0108A02B9CB54C00720131 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01089F2B9CB54C00720131 /* TabBar.swift */; };
+		9F2E25432B9CC9FC004BCE57 /* UpdateDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E25422B9CC9FC004BCE57 /* UpdateDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		9F0108992B94C8A000720131 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9F01089B2B9A4BCB00720131 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		9F01089D2B9A546E00720131 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		9F01089F2B9CB54C00720131 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		9F2E25422B9CC9FC004BCE57 /* UpdateDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				9F0108972B94B6FD00720131 /* Home.swift */,
 				9F01089B2B9A4BCB00720131 /* UpdateList.swift */,
 				9F01089D2B9A546E00720131 /* UpdateStore.swift */,
+				9F2E25422B9CC9FC004BCE57 /* UpdateDetails.swift */,
+				9F01089F2B9CB54C00720131 /* TabBar.swift */,
 				9F0108992B94C8A000720131 /* HomeView.swift */,
 				9F01086F2B8D272100720131 /* Assets.xcassets */,
 				9F0108712B8D272100720131 /* Preview Content */,
@@ -274,7 +280,9 @@
 			files = (
 				9F01089C2B9A4BCB00720131 /* UpdateList.swift in Sources */,
 				9F01086E2B8D271F00720131 /* ContentView.swift in Sources */,
+				9F2E25432B9CC9FC004BCE57 /* UpdateDetails.swift in Sources */,
 				9F0108962B939D4D00720131 /* MenuView.swift in Sources */,
+				9F0108A02B9CB54C00720131 /* TabBar.swift in Sources */,
 				9F0108982B94B6FD00720131 /* Home.swift in Sources */,
 				9F01089A2B94C8A000720131 /* HomeView.swift in Sources */,
 				9F01089E2B9A546E00720131 /* UpdateStore.swift in Sources */,
