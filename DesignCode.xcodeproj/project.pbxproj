@@ -22,6 +22,8 @@
 		9F0108A02B9CB54C00720131 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01089F2B9CB54C00720131 /* TabBar.swift */; };
 		9F2E25432B9CC9FC004BCE57 /* UpdateDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E25422B9CC9FC004BCE57 /* UpdateDetails.swift */; };
 		9F2E25452B9CD09D004BCE57 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E25442B9CD09D004BCE57 /* RingView.swift */; };
+		9F2E25482B9F8CEF004BCE57 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E25472B9F8CEF004BCE57 /* Modifiers.swift */; };
+		9F2E254D2BA0ABF9004BCE57 /* Work_Sans in Resources */ = {isa = PBXBuildFile; fileRef = 9F2E254C2BA0ABF9004BCE57 /* Work_Sans */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		9F01089F2B9CB54C00720131 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		9F2E25422B9CC9FC004BCE57 /* UpdateDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetails.swift; sourceTree = "<group>"; };
 		9F2E25442B9CD09D004BCE57 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		9F2E25472B9F8CEF004BCE57 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		9F2E254B2B9F9499004BCE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9F2E254C2BA0ABF9004BCE57 /* Work_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Work_Sans; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,17 +115,20 @@
 		9F01086A2B8D271F00720131 /* DesignCode */ = {
 			isa = PBXGroup;
 			children = (
+				9F2E254B2B9F9499004BCE57 /* Info.plist */,
 				9F01086B2B8D271F00720131 /* DesignCodeApp.swift */,
 				9F01086D2B8D271F00720131 /* ContentView.swift */,
 				9F0108952B939D4D00720131 /* MenuView.swift */,
 				9F0108972B94B6FD00720131 /* Home.swift */,
+				9F0108992B94C8A000720131 /* HomeView.swift */,
+				9F2E25472B9F8CEF004BCE57 /* Modifiers.swift */,
 				9F01089B2B9A4BCB00720131 /* UpdateList.swift */,
 				9F01089D2B9A546E00720131 /* UpdateStore.swift */,
 				9F2E25442B9CD09D004BCE57 /* RingView.swift */,
 				9F2E25422B9CC9FC004BCE57 /* UpdateDetails.swift */,
 				9F01089F2B9CB54C00720131 /* TabBar.swift */,
-				9F0108992B94C8A000720131 /* HomeView.swift */,
 				9F01086F2B8D272100720131 /* Assets.xcassets */,
+				9F2E254C2BA0ABF9004BCE57 /* Work_Sans */,
 				9F0108712B8D272100720131 /* Preview Content */,
 			);
 			path = DesignCode;
@@ -256,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F0108732B8D272100720131 /* Preview Assets.xcassets in Resources */,
+				9F2E254D2BA0ABF9004BCE57 /* Work_Sans in Resources */,
 				9F0108702B8D272100720131 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2E25452B9CD09D004BCE57 /* RingView.swift in Sources */,
+				9F2E25482B9F8CEF004BCE57 /* Modifiers.swift in Sources */,
 				9F01089C2B9A4BCB00720131 /* UpdateList.swift in Sources */,
 				9F01086E2B8D271F00720131 /* ContentView.swift in Sources */,
 				9F2E25432B9CC9FC004BCE57 /* UpdateDetails.swift in Sources */,
@@ -457,6 +467,8 @@
 				DEVELOPMENT_TEAM = F729H4D7P8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignCode/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -486,6 +498,8 @@
 				DEVELOPMENT_TEAM = F729H4D7P8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignCode/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -15,7 +15,8 @@ struct HomeView: View {
         VStack {
             HStack {
                 Text("Watching")
-                    .font(.system(size: 28,weight: .bold))
+//                    .font(.system(size: 28,weight: .bold))
+                    .modifier(CustomFontModifier(size: 28))
                 Spacer()
                 AvatarView(showProfile: $showUpdate)
                 Button(action: { self.showUpdate.toggle() }) {
@@ -37,18 +38,11 @@ struct HomeView: View {
             .padding(.horizontal)
             .padding(.top, 30)
             .padding(.leading, 14)
-            HStack(spacing: 12.0) {
-                RingView(color1: #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1), color2: #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1), width: 44, height: 44, percent: 68, show: .constant(true))
-                VStack(alignment: .leading, spacing: 4.0) {
-                    Text("6 minutes left").bold()
-                    Text("Watched 10 mins today").font(.caption)
-                }
+            ScrollView(.horizontal, showsIndicators: false) {
+                WatchRingsView()
+                    .padding(.horizontal, 30)
+                    .padding(.bottom, 30)
             }
-            .padding(8)
-            .background(.white)
-            .cornerRadius(20)
-            .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 20)
-            .shadow(color: Color.black.opacity(0.1), radius: 1, x: 0, y: 1)
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     ForEach(sectionData) { item in
@@ -119,3 +113,41 @@ let sectionData = [
     Section(title: "Build a SwiftUI app", text: "20 Sections", logo: "Logo1", image: Image(uiImage: #imageLiteral(resourceName: "Background1")), color: Color(#colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1))),
     Section(title: "SwiftUI Advanced", text: "20 Sections", logo: "Logo1", image: Image(uiImage: #imageLiteral(resourceName: "Card2")), color: Color(#colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)))
 ]
+
+struct WatchRingsView: View {
+    var body: some View {
+        HStack(spacing: 30) {
+            HStack(spacing: 12.0) {
+                RingView(color1: #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1), color2: #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1), width: 44, height: 44, percent: 68, show: .constant(true))
+                VStack(alignment: .leading, spacing: 4.0) {
+                    Text("6 minutes left")
+                        .bold()
+                        .modifier(FontModifier(style: .subheadline))
+                    Text("Watched 10 mins today")
+                        .modifier(FontModifier(style: .caption))
+                }
+                .modifier(FontModifier())
+            }
+            .padding(8)
+            .background(.white)
+            .cornerRadius(20)
+            .modifier(ShadowModifier())
+            
+            HStack(spacing: 12.0) {
+                RingView(color1: #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1), color2: #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1), width: 32, height: 32, percent: 54, show: .constant(true))
+            }
+            .padding(8)
+            .background(Color.white)
+            .cornerRadius(20)
+            .modifier(ShadowModifier())
+            
+            HStack(spacing: 12.0) {
+                RingView(color1: #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1), color2: #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), width: 32, height: 32, percent: 32, show: .constant(true))
+            }
+            .padding(8)
+            .background(Color.white)
+            .cornerRadius(20)
+            .modifier(ShadowModifier())
+        }
+    }
+}
