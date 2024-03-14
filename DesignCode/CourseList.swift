@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct CourseList: View {
+    @State var show = false
+    @State var show2 = false
+    
     var body: some View {
-        VStack {
-            CourseView()
+        ScrollView {
+            VStack(spacing: 30) {
+                CourseView(show: $show)
+                GeometryReader { geometry in
+                    CourseView(show: self.$show2)
+                        .offset(y: self.show2 ? -geometry.frame(in: .global).minY : 0)
+                }
+                .frame(height: self.show2 ? screen.height : 280)
+                .frame(maxWidth: show2 ? .infinity : screen.width - 60)
+            }
+            .frame(width: screen.width)
         }
     }
 }
@@ -20,7 +32,7 @@ struct CourseList: View {
 }
 
 struct CourseView: View {
-    @State var show = false
+    @Binding var show : Bool
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -35,7 +47,7 @@ struct CourseView: View {
                 Text("Minimal coding experience required, such as in HTML and CSS. Please note that Xcode 11 and Catalina are essential. Once you get everything installed, it'll get a lot friendlier! I added a bunch of troubleshoots at the end of this page to help you navigate the issues you might encounter.")
             }
             .padding(30)
-            .frame(maxWidth: show ? .infinity : screen.width - 60, maxHeight: show ? .infinity : screen.height - 60, alignment: .top)
+            .frame(maxWidth: show ? .infinity : screen.width - 60, maxHeight: CGFloat(show ? .infinity : 280.0), alignment: .top)
             .offset(y: show ? 460 : 0)
             .background(.white)
             .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
