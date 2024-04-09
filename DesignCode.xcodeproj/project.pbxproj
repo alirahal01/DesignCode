@@ -25,6 +25,8 @@
 		9F2E25482B9F8CEF004BCE57 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E25472B9F8CEF004BCE57 /* Modifiers.swift */; };
 		9F2E254D2BA0ABF9004BCE57 /* Work_Sans in Resources */ = {isa = PBXBuildFile; fileRef = 9F2E254C2BA0ABF9004BCE57 /* Work_Sans */; };
 		9F2E254F2BA34834004BCE57 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E254E2BA34834004BCE57 /* CourseList.swift */; };
+		9FCAD0212BC5C25F00AF6391 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCAD0202BC5C25F00AF6391 /* Post.swift */; };
+		9FCAD0232BC5C44600AF6391 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCAD0222BC5C44600AF6391 /* PostList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		9F2E254B2B9F9499004BCE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9F2E254C2BA0ABF9004BCE57 /* Work_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Work_Sans; sourceTree = "<group>"; };
 		9F2E254E2BA34834004BCE57 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
+		9FCAD0202BC5C25F00AF6391 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		9FCAD0222BC5C44600AF6391 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 				9F01086F2B8D272100720131 /* Assets.xcassets */,
 				9F2E254C2BA0ABF9004BCE57 /* Work_Sans */,
 				9F0108712B8D272100720131 /* Preview Content */,
+				9FCAD0202BC5C25F00AF6391 /* Post.swift */,
+				9FCAD0222BC5C44600AF6391 /* PostList.swift */,
 			);
 			path = DesignCode;
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 				9F2E25482B9F8CEF004BCE57 /* Modifiers.swift in Sources */,
 				9F01089C2B9A4BCB00720131 /* UpdateList.swift in Sources */,
 				9F01086E2B8D271F00720131 /* ContentView.swift in Sources */,
+				9FCAD0212BC5C25F00AF6391 /* Post.swift in Sources */,
 				9F2E254F2BA34834004BCE57 /* CourseList.swift in Sources */,
 				9F2E25432B9CC9FC004BCE57 /* UpdateDetails.swift in Sources */,
 				9F0108962B939D4D00720131 /* MenuView.swift in Sources */,
@@ -305,6 +312,7 @@
 				9F01089A2B94C8A000720131 /* HomeView.swift in Sources */,
 				9F01089E2B9A546E00720131 /* UpdateStore.swift in Sources */,
 				9F01086C2B8D271F00720131 /* DesignCodeApp.swift in Sources */,
+				9FCAD0232BC5C44600AF6391 /* PostList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
